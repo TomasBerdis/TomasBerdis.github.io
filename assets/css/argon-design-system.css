@@ -19,6 +19,9 @@ Coded by www.creative-tim.com
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+/*https://coolors.co/dad7cd-a3b18a-588157-3a5a40-344e41-1a2721-000000*/
+
 :root {
   --blue: #5e72e4;
   --indigo: #5603ad;
@@ -186,7 +189,7 @@ sup {
 }
 
 a {
-  color: #5e72e4;
+  color: #3A5A40;
   text-decoration: none;
   background-color: transparent;
 }
@@ -4739,13 +4742,14 @@ input[type="button"].btn-block {
 }
 
 .nav-pills .nav-link {
+  color: #84A98C;
   border-radius: 0.25rem;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #5e72e4;
+  background-color: #52796F;
 }
 
 .nav-fill .nav-item {
@@ -18282,7 +18286,7 @@ a.btn-icon-only {
 
 .btn-github {
   color: #fff;
-  background-color: #222222;
+  background-color: #1A2721;
   border-color: #222222;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
@@ -19417,7 +19421,7 @@ textarea[resize="horizontal"] {
 
 .nav-pills .nav-link {
   padding: 0.75rem 1rem;
-  color: #5e72e4;
+  color: #A3B18A;
   font-weight: 500;
   font-size: 0.875rem;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -19426,13 +19430,13 @@ textarea[resize="horizontal"] {
 }
 
 .nav-pills .nav-link:hover {
-  color: #485fe0;
+  color: #3A5A40;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #5e72e4;
+  background-color: #588157;
 }
 
 @media (max-width: 575.98px) {
@@ -20470,7 +20474,8 @@ textarea[resize="horizontal"] {
 }
 
 .section-shaped .shape-primary {
-  background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%);
+  /* background: linear-gradient(150deg, #281483 15%, #8f6ed5 70%, #d782d9 94%); */
+  background: linear-gradient(150deg, #588157 5%, #3A5A40 80%, #344E41 94%);
 }
 
 .section-shaped .shape-primary :nth-child(1) {
